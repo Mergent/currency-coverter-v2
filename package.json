@@ -1,0 +1,36 @@
+{
+  "name": "react-redux-currency-converter-fake-auth",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --open"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "core-js": "^3.12.1",
+    "history": "^4.6.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.0",
+    "react-redux": "^7.0.5",
+    "react-router-dom": "^5.1.2",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "regenerator-runtime": "^0.13.7"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "html-webpack-plugin": "^2.26.0",
+    "path": "^0.12.7",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  }
+}
