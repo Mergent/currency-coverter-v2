@@ -46,8 +46,8 @@ export function currency(state = initialState, action) {
     case currenciesConstants.actions.TO_CHANGE_INPUT:
       return {
         ...state,
-        from: action.data,
-        to: action.data
+        to: action.data,
+        from: action.data
           ? currenciesUtils.convertAmount({ amount: action.data, state, mode: "from" })
           : action.data,
 
